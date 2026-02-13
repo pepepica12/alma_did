@@ -27,8 +27,8 @@
     {
       "id": "dashboard",
       "type": "Dashboard",
-      "serviceEndpoint": ""
-    },
+      "serviceEndpoint": "https://next-seven-pink.vercel.app"
+    }
     {
       "id": "ai",
       "type": "AIService",
