@@ -1,7 +1,6 @@
-name = "alma-did"
+name = "almhfeehhd"
+main = "index.js"
 compatibility_date = "2026-02-17"
 
-[site]
-bucket = "./public"
-
-routes = ["https://almadid.pages.dev/*"]
+workers_dev = true
+preview_urls = false
