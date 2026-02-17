@@ -1,38 +1,12 @@
 {
+  "@context": "https://www.w3.org/ns/did/v1",
   "id": "did:alma:root",
   "verificationMethod": [
     {
       "id": "did:alma:root#key-1",
-      "type": "Ed25519VerificationKey2020",
+      "type": "Ed25519VerificationKey2018",
       "controller": "did:alma:root",
-      "publicKeyMultibase": "z111RN3t1cWCcecTLM26gmqhcXVujtvmbHWJr2b3QZWY6Tb5SFrqf8FpYXN4TfJu4xV96"
-    }
-  ],
-  "service": [
-    {
-      "id": "cdn",
-      "type": "ContentDelivery",
-      "serviceEndpoint": ""
-    },
-    {
-      "id": "api",
-      "type": "BackendService",
-      "serviceEndpoint": ""
-    },
-    {
-      "id": "auth",
-      "type": "AuthService",
-      "serviceEndpoint": ""
-    },
-    {
-      "id": "dashboard",
-      "type": "Dashboard",
-      "serviceEndpoint": "https://next-seven-pink.vercel.app"
-    }
-    {
-      "id": "ai",
-      "type": "AIService",
-      "serviceEndpoint": ""
+      "publicKeyMultibase": "z6MkiBtCsJnwq7UMUeAu7EZ5iWbCthyNsMqRQOuk6EaczFN"
     }
   ]
 }
