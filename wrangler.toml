@@ -1,18 +1,10 @@
-name = "alma_did"
+ame = "alma-did"
+main = "workers-site/index.js"
 compatibility_date = "2026-02-17"
 
 [site]
 bucket = "./public"
-entry-point = "workers-site"
 
 [[routes]]
-pattern = "/did.json"
-path = "did.json"
-
-[[routes]]
-pattern = "/services.json"
-path = "services.json"
-
-[[routes]]
-pattern = "/keys.json"
-path = "keys.json"
+pattern = "https://almadid.pages.dev/*"
+custom_domain = true
