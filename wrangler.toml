@@ -1,10 +1,8 @@
-ame = "alma-did"
+name = "alma-did"
 main = "workers-site/index.js"
 compatibility_date = "2026-02-17"
 
 [site]
 bucket = "./public"
 
-[[routes]]
-pattern = "https://almadid.pages.dev/*"
-custom_domain = true
+routes = ["https://almadid.pages.dev/*"]
